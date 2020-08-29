@@ -1,0 +1,47 @@
+h1 {
+    color:brown;
+    margin-left:40px;
+} 
+* {
+  /*  border:solid; */
+}
+
+
+body{
+    background-color:#808080;
+}
+
+.header
+{
+    background-color:cadetblue;
+    display:flex;
+    justify-content:space-between;
+}
+.grid
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.footer
+{
+    display:flex;
+    justify-content:flex-end;
+}
+
+p
+{
+    text-align: center;
+}
+
+h2{
+    color:#ffffff;
+    /*padding-left:50px;
+    padding-bottom:30px;
+    padding-top:30px;*/
+    padding:30px;
+    font-size:50px;
+    border:5px dashed red;
+    border-radius:10px 20px;
+}
+
